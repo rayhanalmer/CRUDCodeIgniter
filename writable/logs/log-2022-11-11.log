@@ -1,0 +1,319 @@
+ERROR - 2022-11-11 06:31:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(104): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:31:24 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(104): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:31:53 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:31:53 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:32:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:32:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:32:40 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:32:40 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:33:49 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:33:49 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:36:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:36:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:47:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:47:28 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 06:47:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('fakultas.nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:49:10 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:49:10 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:51:19 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(108): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:51:19 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(108): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-11 06:51:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(108): App\Models\FakultasModel->deleteFakultas('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-11 06:51:21 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(108): App\Models\FakultasModel->deleteFakultas('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

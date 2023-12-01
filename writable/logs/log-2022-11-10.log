@@ -1,0 +1,27 @@
+CRITICAL - 2022-11-10 10:02:06 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:04:44 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:04:56 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

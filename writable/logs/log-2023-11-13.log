@@ -1,0 +1,250 @@
+ERROR - 2023-11-13 09:06:20 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`)) in C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+#6 C:\xampp\htdocs\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+#7 C:\xampp\htdocs\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 C:\xampp\htdocs\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inventory\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 09:06:20 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 09:06:25 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`)) in C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+#6 C:\xampp\htdocs\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+#7 C:\xampp\htdocs\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 C:\xampp\htdocs\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inventory\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 09:06:25 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 09:06:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`)) in C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+#6 C:\xampp\htdocs\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+#7 C:\xampp\htdocs\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 C:\xampp\htdocs\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inventory\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 09:06:28 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 09:06:37 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`)) in C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\inventory\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\inventory\app\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\inventory\app\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+#6 C:\xampp\htdocs\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+#7 C:\xampp\htdocs\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 C:\xampp\htdocs\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inventory\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 09:06:37 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`kode_fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fakultas`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(42): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Fakultas.php(96): App\Models\FakultasModel->deleteFakultas('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->delete('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-13 09:07:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\inventory\app\Models\Inventory_LembagaModel.php on line 46
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Inventory_LembagaModel.php(46): CodeIgniter\Database\BaseBuilder->like('inventory_lembaga.nama_barang', null)
+ 2 APPPATH\Controllers\Inventory_lembaga.php(19): App\Models\Inventory_LembagaModel->getBarang1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-11-13 09:07:39 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\inventory\app\Models\Inventory_LembagaModel.php on line 46
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\Inventory_LembagaModel.php(46): CodeIgniter\Database\BaseBuilder->like('inventory_lembaga.nama_barang', null)
+ 2 APPPATH\Controllers\Inventory_lembaga.php(19): App\Models\Inventory_LembagaModel->getBarang1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 11:19:41 --> mysqli_sql_exception: Unknown column 'pemakai' in 'field list' in C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\IFAssets\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\IFAssets\app\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\IFAssets\app\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang(Array)
+#6 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+#7 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+#8 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IFAssets\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\IFAssets\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 11:19:41 --> Unknown column 'pemakai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (:kode_barang:, :nama_barang:, :merk_barang:, :jumlah_barang:, :kode_departemen:, :nilai_perolehan:, :pemakai:, :kondisi_barang:, :catatan:)', [...], false)
+ 5 APPPATH\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 11:19:48 --> mysqli_sql_exception: Unknown column 'pemakai' in 'field list' in C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\IFAssets\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\IFAssets\app\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\IFAssets\app\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang(Array)
+#6 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+#7 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+#8 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IFAssets\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\IFAssets\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 11:19:48 --> Unknown column 'pemakai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (:kode_barang:, :nama_barang:, :merk_barang:, :jumlah_barang:, :kode_departemen:, :nilai_perolehan:, :pemakai:, :kondisi_barang:, :catatan:)', [...], false)
+ 5 APPPATH\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 11:19:52 --> mysqli_sql_exception: Unknown column 'pemakai' in 'field list' in C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\IFAssets\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\IFAssets\app\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\IFAssets\app\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang(Array)
+#6 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+#7 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+#8 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IFAssets\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\IFAssets\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 11:19:52 --> Unknown column 'pemakai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (:kode_barang:, :nama_barang:, :merk_barang:, :jumlah_barang:, :kode_departemen:, :nilai_perolehan:, :pemakai:, :kondisi_barang:, :catatan:)', [...], false)
+ 5 APPPATH\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-11-13 11:20:02 --> mysqli_sql_exception: Unknown column 'pemakai' in 'field list' in C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\IFAssets\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\IFAssets\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\IFAssets\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\IFAssets\app\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\IFAssets\app\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang(Array)
+#6 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+#7 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+#8 C:\xampp\htdocs\IFAssets\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\IFAssets\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\IFAssets\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-13 11:20:02 --> Unknown column 'pemakai' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'TE0001\', \'Osiloskop\', \'KKmoon\', \'2\', \'TE003\', \'112000\', NULL, \'Baik\', \'Perlu ditambah\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_departemen` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_departemen`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (:kode_barang:, :nama_barang:, :merk_barang:, :jumlah_barang:, :kode_departemen:, :nilai_perolehan:, :pemakai:, :kondisi_barang:, :catatan:)', [...], false)
+ 5 APPPATH\Models\Inventory_DepartemenModel.php(51): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Inventory_departemen.php(82): App\Models\Inventory_DepartemenModel->saveBarang([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_departemen->store()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_departemen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

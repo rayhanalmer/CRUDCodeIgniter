@@ -1,0 +1,2083 @@
+CRITICAL - 2022-11-06 00:39:30 --> Undefined property: stdClass::$kode_lembaga
+in APPPATH\Views\lembaga\index.php on line 32.
+ 1 APPPATH\Views\lembaga\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_lembaga', 'APPPATH\\Views\\lembaga\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(19): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:40:48 --> Undefined property: stdClass::$kode_lembaga
+in APPPATH\Views\lembaga\index.php on line 32.
+ 1 APPPATH\Views\lembaga\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_lembaga', 'APPPATH\\Views\\lembaga\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(19): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:40:51 --> Undefined property: stdClass::$kode_lembaga
+in APPPATH\Views\lembaga\index.php on line 32.
+ 1 APPPATH\Views\lembaga\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_lembaga', 'APPPATH\\Views\\lembaga\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(19): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:41:03 --> Undefined property: stdClass::$kode_lembaga
+in APPPATH\Views\lembaga\index.php on line 32.
+ 1 APPPATH\Views\lembaga\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_lembaga', 'APPPATH\\Views\\lembaga\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(19): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:45:20 --> Undefined property: App\Controllers\Lembaga::$Lembaga
+in APPPATH\Controllers\Lembaga.php on line 52.
+ 1 APPPATH\Controllers\Lembaga.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lembaga::$Lembaga', 'APPPATH\\Controllers\\Lembaga.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:49:32 --> Undefined property: App\Controllers\Lembaga::$Lembaga
+in APPPATH\Controllers\Lembaga.php on line 87.
+ 1 APPPATH\Controllers\Lembaga.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lembaga::$Lembaga', 'APPPATH\\Controllers\\Lembaga.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->delete('BAU')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:23:13 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Lembaga.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:24:36 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Lembaga.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:29:31 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Lembaga.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:29:33 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Lembaga.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:31:08 --> Call to undefined method App\Models\LembagaModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Lembaga.php(22): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:45:02 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:45:43 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:45:48 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:45:50 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:46:07 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:46:49 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:46:51 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:47:07 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:47:31 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:48:36 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:48:41 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(27): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:58:58 --> Call to undefined function App\Controllers\length()
+in APPPATH\Controllers\Lembaga.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:59:08 --> Call to undefined function App\Controllers\len()
+in APPPATH\Controllers\Lembaga.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:59:09 --> Call to undefined function App\Controllers\len()
+in APPPATH\Controllers\Lembaga.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:00:59 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(29): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:08:20 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:08:22 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:08:24 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:08:39 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:08:44 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:09:14 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:10:01 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:11:09 --> Undefined variable $cari
+in APPPATH\Views\lembaga\index.php on line 37.
+ 1 APPPATH\Views\lembaga\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lembaga\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(30): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:19:10 --> Undefined property: App\Controllers\Lembaga::$input
+in APPPATH\Controllers\Lembaga.php on line 27.
+ 1 APPPATH\Controllers\Lembaga.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lembaga::$input', 'APPPATH\\Controllers\\Lembaga.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:19:12 --> Undefined property: App\Controllers\Lembaga::$input
+in APPPATH\Controllers\Lembaga.php on line 27.
+ 1 APPPATH\Controllers\Lembaga.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lembaga::$input', 'APPPATH\\Controllers\\Lembaga.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:19:14 --> Undefined property: App\Controllers\Lembaga::$input
+in APPPATH\Controllers\Lembaga.php on line 27.
+ 1 APPPATH\Controllers\Lembaga.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lembaga::$input', 'APPPATH\\Controllers\\Lembaga.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:19:52 --> Undefined variable $cari
+in APPPATH\Controllers\Lembaga.php on line 28.
+ 1 APPPATH\Controllers\Lembaga.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Controllers\\Lembaga.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:19:59 --> Undefined variable $cari
+in APPPATH\Controllers\Lembaga.php on line 28.
+ 1 APPPATH\Controllers\Lembaga.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Controllers\\Lembaga.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:20:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:20:33 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:22:55 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:22:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:02:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ruang\edit.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ruang/edit', [], true)
+ 4 APPPATH\Controllers\ruang.php(71): view('ruang/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->edit('1.401')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:03:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ruang\edit.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ruang/edit', [], true)
+ 4 APPPATH\Controllers\ruang.php(71): view('ruang/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->edit('1.401')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:03:28 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ruang\edit.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ruang/edit', [], true)
+ 4 APPPATH\Controllers\ruang.php(71): view('ruang/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->edit('1.401')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:04:03 --> Undefined variable $fakultas
+in APPPATH\Views\ruang\edit.php on line 30.
+ 1 APPPATH\Views\ruang\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fakultas', 'APPPATH\\Views\\ruang\\edit.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ruang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ruang/edit', [], true)
+ 5 APPPATH\Controllers\ruang.php(71): view('ruang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->edit('1.401')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:04:05 --> Undefined variable $fakultas
+in APPPATH\Views\ruang\edit.php on line 30.
+ 1 APPPATH\Views\ruang\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fakultas', 'APPPATH\\Views\\ruang\\edit.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ruang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ruang/edit', [], true)
+ 5 APPPATH\Controllers\ruang.php(71): view('ruang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->edit('1.401')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:04:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ruang\edit.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ruang/edit', [], true)
+ 4 APPPATH\Controllers\ruang.php(71): view('ruang/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->edit('1.401')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 02:21:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`)) in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ruang` ...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ruang` ...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ruang` ...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `ruang` ...', Array, false)
+#4 D:\web\code\inventory\app\Models\RuangModel.php(43): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\web\code\inventory\app\Controllers\ruang.php(82): App\Models\RuangModel->updateRuang(Array, '1.401')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Ruang->update('1.401')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 02:21:46 --> Cannot add or update a child row: a foreign key constraint fails (`inventaris_project`.`ruang`, CONSTRAINT `ruang_ibfk_1` FOREIGN KEY (`kode_fakultas`) REFERENCES `fakultas` (`Kode_Fakultas`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ruang` SET `kode_ruang` = \'1.401\', `nama_ruang` = \'R.401\', `kode_fakultas` = NULL
+WHERE `kode_ruang` = \'1.401\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ruang` SET `kode_ruang` = \'1.401\', `nama_ruang` = \'R.401\', `kode_fakultas` = NULL
+WHERE `kode_ruang` = \'1.401\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ruang` SET `kode_ruang` = \'1.401\', `nama_ruang` = \'R.401\', `kode_fakultas` = NULL
+WHERE `kode_ruang` = \'1.401\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `ruang` SET `kode_ruang` = :kode_ruang:, `nama_ruang` = :nama_ruang:, `kode_fakultas` = :kode_fakultas:
+WHERE `kode_ruang` = :kode_ruang.1:', [...], false)
+ 5 APPPATH\Models\RuangModel.php(43): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\ruang.php(82): App\Models\RuangModel->updateRuang([...], '1.401')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ruang->update('1.401')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruang))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 03:36:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_...' at line 1 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *\nFRO...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *\nFRO...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *\nFRO...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *\nFRO...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getbarang1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 03:36:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', [], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getbarang1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 03:37:43 --> mysqli_sql_exception: Table 'inventaris_project.barang' doesn't exist in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 03:37:43 --> Table 'inventaris_project.barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', [], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 03:40:14 --> mysqli_sql_exception: Table 'inventaris_project.barang' doesn't exist in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 03:40:14 --> Table 'inventaris_project.barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', [], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 03:40:18 --> mysqli_sql_exception: Table 'inventaris_project.barang' doesn't exist in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 03:40:18 --> Table 'inventaris_project.barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', [], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 03:45:01 --> mysqli_sql_exception: Unknown column 'barang.kode_fakultas' in 'on clause' in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 03:45:01 --> Unknown column 'barang.kode_fakultas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`barang`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`barang`.`kode_ruang`', [], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 03:45:47 --> mysqli_sql_exception: Unknown column 'inventory_fakultas.kode_ruang' in 'on clause' in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 03:45:47 --> Unknown column 'inventory_fakultas.kode_ruang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`', [], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(19): App\Models\Inventory_FakultasModel->getBarang1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:16:33 --> Invalid file: barang/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/edit.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('barang/edit', [], true)
+ 3 APPPATH\Controllers\Inventory_fakultas.php(74): view('barang/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->edit('3.05.02.04.004')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:51:52 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:52:29 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:52:49 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:55:15 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:55:18 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:57:05 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:57:07 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:58:01 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:58:14 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 05:01:05 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 05:01:35 --> Undefined variable $barang
+in APPPATH\Views\inventory_fakultas\create.php on line 29.
+ 1 APPPATH\Views\inventory_fakultas\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'APPPATH\\Views\\inventory_fakultas\\create.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_fakultas\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_fakultas/create', [], true)
+ 5 APPPATH\Controllers\Inventory_fakultas.php(28): view('inventory_fakultas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 05:29:29 --> mysqli_sql_exception: Duplicate entry 'jj' for key 'PRIMARY' in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(57): App\Models\Inventory_FakultasModel->saveBarang(Array)
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->store()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 05:29:29 --> Duplicate entry 'jj' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `kode_fakultas`) VALUES (\'jj\', \'kk\', \'42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `kode_fakultas`) VALUES (\'jj\', \'kk\', \'42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `kode_fakultas`) VALUES (\'jj\', \'kk\', \'42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `kode_fakultas`) VALUES (:kode_barang:, :nama_barang:, :kode_fakultas:)', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Inventory_fakultas.php(57): App\Models\Inventory_FakultasModel->saveBarang([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->store()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 05:30:57 --> mysqli_sql_exception: Duplicate entry 'jj' for key 'PRIMARY' in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(64): App\Models\Inventory_FakultasModel->saveBarang(Array)
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->store()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 05:30:57 --> Duplicate entry 'jj' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_fakultas`, `kode_ruang`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'jj\', \'kk\', \'ll\', \'1\', \'42\', \'1.401\', \'\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_fakultas`, `kode_ruang`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'jj\', \'kk\', \'ll\', \'1\', \'42\', \'1.401\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_fakultas`, `kode_ruang`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (\'jj\', \'kk\', \'ll\', \'1\', \'42\', \'1.401\', \'\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_fakultas` (`kode_barang`, `nama_barang`, `merk_barang`, `jumlah_barang`, `kode_fakultas`, `kode_ruang`, `nilai_perolehan`, `pemakai`, `kondisi_barang`, `catatan`) VALUES (:kode_barang:, :nama_barang:, :merk_barang:, :jumlah_barang:, :kode_fakultas:, :kode_ruang:, :nilai_perolehan:, :pemakai:, :kondisi_barang:, :catatan:)', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Inventory_fakultas.php(64): App\Models\Inventory_FakultasModel->saveBarang([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->store()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:05:39 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('42')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:05:39 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'42\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'42\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'42\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('42')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:08:09 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:08:09 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:18:18 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:18:18 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:20:01 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:20:01 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:20:06 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:20:06 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:20:44 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:20:44 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:20:52 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:20:52 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:21:50 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:21:50 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:21:56 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:21:56 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:22:50 --> syntax error, unexpected single-quoted string "kode_fakultas", expecting variable
+in APPPATH\Models\Inventory_FakultasModel.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Inventory_FakultasModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inventory_FakultasModel')
+ 3 APPPATH\Controllers\Inventory_fakultas.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inventory_FakultasModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_fakultas->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:25:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\Inventory_FakultasModel.php on line 36.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:25:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\Inventory_FakultasModel.php on line 36.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:27:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findColumn()
+in APPPATH\Models\Inventory_FakultasModel.php on line 36.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:27:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findColumn()
+in APPPATH\Models\Inventory_FakultasModel.php on line 36.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:28:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findColumn()
+in APPPATH\Models\Inventory_FakultasModel.php on line 36.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:28:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findColumn()
+in APPPATH\Models\Inventory_FakultasModel.php on line 36.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:31:30 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:31:30 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 06:31:32 --> mysqli_sql_exception: Column 'kode_fakultas' in where clause is ambiguous in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 06:31:32 --> Column 'kode_fakultas' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = \'FST\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `inventory_fakultas`
+JOIN `fakultas` ON `fakultas`.`kode_fakultas`=`inventory_fakultas`.`kode_fakultas`
+JOIN `ruang` ON `ruang`.`kode_ruang`=`inventory_fakultas`.`kode_ruang`
+WHERE `kode_fakultas` = :kode_fakultas:', [...], false)
+ 5 APPPATH\Models\Inventory_FakultasModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('FST')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('FST')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:40:11 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Inventory_fakultas.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:44:03 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Inventory_fakultas.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:47:43 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Inventory_fakultas.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:48:03 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Inventory_fakultas.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 06:50:45 --> Unsupported operand types: string + string
+in APPPATH\Models\Inventory_FakultasModel.php on line 31.
+ 1 APPPATH\Controllers\Inventory_fakultas.php(27): App\Models\Inventory_FakultasModel->getBarangperFak('42')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_fakultas->find('42')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:26:59 --> Undefined array key "user_nama"
+in APPPATH\Controllers\Login.php on line 24.
+ 1 APPPATH\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_nama"', 'APPPATH\\Controllers\\Login.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:32:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:35:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:37:40 --> Undefined variable $cek
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cek', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:37:43 --> Undefined variable $cek
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cek', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:37:59 --> Undefined variable $cek
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cek', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:46:15 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 07:50:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '123456'' at line 3 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Login.php(19): App\Models\LoginModel->dataUser('aa@gmail.com', '123456')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Login->login_action()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 07:50:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '123456'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'', [], false)
+ 5 APPPATH\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(19): App\Models\LoginModel->dataUser('aa@gmail.com', '123456')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 07:50:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '123456'' at line 3 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Login.php(19): App\Models\LoginModel->dataUser('aa@gmail.com', '123456')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Login->login_action()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 07:50:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '123456'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE user_email=\'aa@gmail.comand user_pass = \'123456\'', [], false)
+ 5 APPPATH\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(19): App\Models\LoginModel->dataUser('aa@gmail.com', '123456')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 07:51:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' and `user_pass` = ''' at line 3 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Login.php(19): App\Models\LoginModel->dataUser(NULL, NULL)
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Login->login_action()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 07:51:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' and `user_pass` = ''' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'', [], false)
+ 5 APPPATH\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(19): App\Models\LoginModel->dataUser(null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 07:51:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' and `user_pass` = ''' at line 3 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Login.php(19): App\Models\LoginModel->dataUser(NULL, NULL)
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Login->login_action()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 07:51:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' and `user_pass` = ''' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = \' and `user_pass` = \'\'', [], false)
+ 5 APPPATH\Models\LoginModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(19): App\Models\LoginModel->dataUser(null, null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:51:37 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:51:39 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:53:34 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:53:37 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 21.
+ 1 APPPATH\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:56:06 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:56:10 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:56:24 --> Undefined variable $data
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 07:56:26 --> Undefined variable $data
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 08:00:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '111'' at line 3 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\LoginModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Login.php(27): App\Models\LoginModel->dataUser('aa@gmail.com', '111')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Login->login_action()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 08:00:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '111'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user_email` = \'aa@gmail.com and `user_pass` = \'111\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user_email` = \'aa@gmail.com and `user_pass` = \'111\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user_email` = \'aa@gmail.com and `user_pass` = \'111\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = \'aa@gmail.com and `user_pass` = \'111\'', [], false)
+ 5 APPPATH\Models\LoginModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(27): App\Models\LoginModel->dataUser('aa@gmail.com', '111')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:07:55 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:12:45 --> Undefined array key "user_nama"
+in APPPATH\Controllers\Login.php on line 38.
+ 1 APPPATH\Controllers\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_nama"', 'APPPATH\\Controllers\\Login.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:13:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:14:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:14:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:14:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:15:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:15:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:16:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:16:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-06 08:20:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'admin'' at line 3 in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\LoginModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Login.php(27): App\Models\LoginModel->dataUser('admin123@gmail....', 'admin')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Login->login_action()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-06 08:20:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'admin'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user_email` = \'admin123@gmail.com and `user_pass` = \'admin\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user_email` = \'admin123@gmail.com and `user_pass` = \'admin\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user_email` = \'admin123@gmail.com and `user_pass` = \'admin\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_email` = \'admin123@gmail.com and `user_pass` = \'admin\'', [], false)
+ 5 APPPATH\Models\LoginModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(27): App\Models\LoginModel->dataUser('admin123@gmail.com', 'admin')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:21:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 31.
+ 1 APPPATH\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:21:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 31.
+ 1 APPPATH\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:21:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 31.
+ 1 APPPATH\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:22:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 31.
+ 1 APPPATH\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:22:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 31.
+ 1 APPPATH\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login_action()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:35:57 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:37:43 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:37:45 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:37:53 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:38:08 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:38:49 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:38:52 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:41:48 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:41:51 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:44:09 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:44:12 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:45:12 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:46:47 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('login', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:46:49 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('login', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:46:53 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('login', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 08:46:58 --> Class "Config\CodeIgniter\Filters\DebugToolbar" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('D:\\', 'after')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

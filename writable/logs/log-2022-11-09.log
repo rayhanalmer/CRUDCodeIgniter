@@ -1,0 +1,451 @@
+CRITICAL - 2022-11-09 04:33:30 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 04:36:13 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 04:36:25 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 04:37:05 --> Invalid file: Views/login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Views/login', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('Views/login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 04:39:22 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 04:39:34 --> Invalid file: login/style.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/style.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login/style', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/style')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 04:59:17 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:47:53 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:48:12 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:48:50 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:48:54 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:57:32 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:57:40 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:57:44 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:58:46 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:58:52 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:59:28 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 06:59:46 --> Undefined property: App\Controllers\Fakultas::$lembaga
+in APPPATH\Controllers\Fakultas.php on line 21.
+ 1 APPPATH\Controllers\Fakultas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Fakultas::$lembaga', 'APPPATH\\Controllers\\Fakultas.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:01:09 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:01:10 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-09 07:01:18 --> mysqli_sql_exception: Table 'inventaris_project.fakultsa' doesn't exist in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-09 07:01:18 --> Table 'inventaris_project.fakultsa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE :nama_fakultas: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-09 07:01:20 --> mysqli_sql_exception: Table 'inventaris_project.fakultsa' doesn't exist in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-09 07:01:20 --> Table 'inventaris_project.fakultsa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE :nama_fakultas: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-09 07:01:36 --> mysqli_sql_exception: Table 'inventaris_project.fakultsa' doesn't exist in D:\web\code\inventory\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\web\code\inventory\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\web\code\inventory\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\web\code\inventory\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\web\code\inventory\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web\code\inventory\app\Models\FakultasModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web\code\inventory\app\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1('')
+#6 D:\web\code\inventory\system\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+#7 D:\web\code\inventory\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\web\code\inventory\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web\code\inventory\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\web\code\inventory\system\Commands\Server\rewrite.php(46): require_once('D:\\web\\code\\inv...')
+#11 {main}
+CRITICAL - 2022-11-09 07:01:36 --> Table 'inventaris_project.fakultsa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fakultsa`
+WHERE `nama_fakultas` LIKE :nama_fakultas: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\FakultasModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:23:47 --> Undefined property: stdClass::$nama_lembaga
+in APPPATH\Views\inventory_lembaga\index.php on line 47.
+ 1 APPPATH\Views\inventory_lembaga\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_lembaga', 'APPPATH\\Views\\inventory_lembaga\\index.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_lembaga/index', [], true)
+ 5 APPPATH\Controllers\Inventory_lembaga.php(21): view('inventory_lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:23:52 --> Undefined property: stdClass::$nama_lembaga
+in APPPATH\Views\inventory_lembaga\index.php on line 47.
+ 1 APPPATH\Views\inventory_lembaga\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_lembaga', 'APPPATH\\Views\\inventory_lembaga\\index.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_lembaga/index', [], true)
+ 5 APPPATH\Controllers\Inventory_lembaga.php(21): view('inventory_lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:27:54 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:30:07 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:30:11 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:45:29 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:50:41 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:50:45 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:54:36 --> Class "App\Models\Inventory_LembagaModel" not found
+in APPPATH\Controllers\Inventory_lembaga.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Inventory_lembaga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:29:44 --> Attempt to read property "cari" on array
+in APPPATH\Views\inventory_lembaga\index.php on line 20.
+ 1 APPPATH\Views\inventory_lembaga\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cari" on array', 'APPPATH\\Views\\inventory_lembaga\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_lembaga/index', [], true)
+ 5 APPPATH\Controllers\Inventory_lembaga.php(21): view('inventory_lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:32:38 --> Attempt to read property "cari" on string
+in APPPATH\Views\inventory_lembaga\index.php on line 20.
+ 1 APPPATH\Views\inventory_lembaga\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cari" on string', 'APPPATH\\Views\\inventory_lembaga\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_lembaga/index', [], true)
+ 5 APPPATH\Controllers\Inventory_lembaga.php(21): view('inventory_lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:32:41 --> Attempt to read property "cari" on string
+in APPPATH\Views\inventory_lembaga\index.php on line 20.
+ 1 APPPATH\Views\inventory_lembaga\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cari" on string', 'APPPATH\\Views\\inventory_lembaga\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inventory_lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inventory_lembaga/index', [], true)
+ 5 APPPATH\Controllers\Inventory_lembaga.php(21): view('inventory_lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Inventory_lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory_lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:33:41 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:34:11 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:34:57 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:37:24 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\FakultasModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\FakultasModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_fakultas', null)
+ 2 APPPATH\Controllers\Fakultas.php(21): App\Models\FakultasModel->getFakultas1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Fakultas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 08:49:35 --> Undefined property: stdClass::$nama_lambaga
+in APPPATH\Views\lembaga\index.php on line 39.
+ 1 APPPATH\Views\lembaga\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_lambaga', 'APPPATH\\Views\\lembaga\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lembaga\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lembaga/index', [], true)
+ 5 APPPATH\Controllers\Lembaga.php(32): view('lembaga/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 13:19:36 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\web\code\inventory\app\Models\LembagaModel.php on line 25
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\LembagaModel.php(25): CodeIgniter\Database\BaseBuilder->like('nama_lembaga', null)
+ 2 APPPATH\Controllers\Lembaga.php(28): App\Models\LembagaModel->getLembaga1(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lembaga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lembaga))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
